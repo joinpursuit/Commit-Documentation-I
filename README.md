@@ -2,6 +2,7 @@
 
 #### Function 1: Add -- Provide two numbers and return the sum
 *Input Parameters*: num1 is an integer or float, num2 is an integer or float
+
 *Result*: The function will return the sum of the two input parameters
 
 ```
