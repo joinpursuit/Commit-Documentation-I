@@ -9,3 +9,5 @@
 // Example add usage
 add(8, 12); // this will return 20
 ```
+
+---
