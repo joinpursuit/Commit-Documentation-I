@@ -1,0 +1,17 @@
+#find-results {
+  width: 80vw;
+  margin: auto;
+}
+
+#find-rooms {
+  padding: 2em;
+  box-sizing: border-box;
+}
+
+#capacity-picker {
+  margin: 4em;
+}
+
+.date-time {
+  margin: 1em 0;
+}

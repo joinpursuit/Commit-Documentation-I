@@ -1,0 +1,47 @@
+#meeting-room-card-container {
+  border: 2px solid grey;
+  border-radius: 1em;
+  margin: 2em auto;
+  padding-left: 1em;
+  box-sizing: border-box;
+  width: 50vw;
+}
+
+.capacity {
+  display: flex;
+  align-items: center;
+}
+
+.capacity-icon {
+  margin-right: 0.5em;
+}
+
+.filtered-rooms {
+  border: 2px solid grey;
+  background-color: rgba(53, 98, 53, 0.749);
+  border-radius: 1em;
+  margin: 2em auto;
+  padding-left: 1em;
+  box-sizing: border-box;
+  width: 50vw;
+}
+
+.adjust-width-green {
+  border: 2px solid grey;
+  background-color: rgba(53, 98, 53, 0.749);
+  border-radius: 1em;
+  margin: 2em auto;
+  padding-left: 1em;
+  width: 50vw;
+}
+
+.adjust-width-red {
+  border: 2px solid grey;
+  background-color: rgba(165, 34, 34, 0.801);
+  border-radius: 1em;
+  margin: 2em auto;
+  padding-left: 1em;
+  box-sizing: border-box;
+  width: 50vw;
+}
+

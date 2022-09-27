@@ -1,0 +1,8 @@
+.adjust-width {
+  border: 2px solid grey;
+  border-radius: 1em;
+  margin: 2em auto;
+  padding: 1em;
+  box-sizing: border-box;
+  width: 50vw;
+}

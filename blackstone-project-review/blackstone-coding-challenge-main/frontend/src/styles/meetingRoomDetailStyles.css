@@ -1,0 +1,12 @@
+#meeting-room-details-container {
+  border: 2px solid grey;
+  border-radius: 1em;
+  margin: 2em auto;
+  padding-left: 1em;
+  box-sizing: border-box;
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}

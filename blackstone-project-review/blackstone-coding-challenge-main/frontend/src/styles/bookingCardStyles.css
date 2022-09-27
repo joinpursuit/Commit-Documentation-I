@@ -1,0 +1,19 @@
+#booking-card-container {
+  border: 2px solid grey;
+  border-radius: 1em;
+  margin: 2em auto;
+  padding-left: 1em;
+  box-sizing: border-box;
+  width: 50vw;
+}
+
+.floor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+}
+
+.floor-icon {
+  margin-right: .5em;
+}

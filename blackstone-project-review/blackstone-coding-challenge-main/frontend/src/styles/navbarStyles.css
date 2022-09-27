@@ -1,0 +1,14 @@
+a {
+  text-decoration: none;
+}
+
+#nav-bar-container {
+  width: 50vw;
+  border-radius: 50em;
+  margin: auto;
+  background-color: white;
+}
+
+#nav-bar {
+  justify-content: space-between;
+}

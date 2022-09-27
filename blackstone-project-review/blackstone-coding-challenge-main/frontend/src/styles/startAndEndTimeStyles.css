@@ -1,0 +1,13 @@
+#start-end-times-conatiner {
+  display: flex;
+  flex-direction: column;
+}
+
+.time-container {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  margin: 0 0.5em;
+}

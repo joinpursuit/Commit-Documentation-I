@@ -1,0 +1,10 @@
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+#app-container {
+  border: 1px solid black;
+  border-radius: 1em;
+  padding: 2em;
+  height: 100%;
+}
