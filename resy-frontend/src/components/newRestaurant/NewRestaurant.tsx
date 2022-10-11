@@ -59,8 +59,8 @@ export default function NewRestaurant() {
         })
     };
 
-    const handleInputChange: React.ChangeEventHandler = (event) => {
-        const target = event.target as HTMLInputElement;
+    const handleInputChange: React.ChangeEventHandler<HTMLInputElement> = (event) => {
+        const target = event.target;
 
         setRestaurantData({
             ...restaurantData,
@@ -75,7 +75,7 @@ export default function NewRestaurant() {
         })
     }
 
-    const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    const handleSubmit: React.FormEventHandler<HTMLFormElement> = (event) => {
         event.preventDefault();
 
         let restaurantDataWithConvertedTimes;

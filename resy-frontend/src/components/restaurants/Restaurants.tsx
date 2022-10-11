@@ -4,7 +4,7 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 // import { getRestaurants } from '../../services/RestaurantService';
 import { Restaurant } from "../../util/types";
-import { QueryResult } from "../queryResult/QueryResult";
+import QueryResult from "../queryResult/QueryResult";
 import RestaurantCard from "./restaurantCard/RestaurantCard";
 import './Restaurants.css';
 
@@ -18,16 +18,11 @@ export const GET_ALL_RESTAURANTS = gql`
   }
 `;
 
-function Restaurants() {
+const Restaurants: React.FC = () => {
     const { data, loading, error } = useQuery<{ restaurants: Restaurant[] }>(GET_ALL_RESTAURANTS);
 
     return (
         <Container className="restaurant-list">
-            {/* {
-                data?.restaurants?.map(d => {
-                    return (<RestaurantCard key={d.id} restaurant={d} />)
-                })
-            } */}
             <QueryResult data={data} error={error} loading={loading}>
                 <React.Fragment>
                     {
@@ -37,11 +32,8 @@ function Restaurants() {
                     }
                 </React.Fragment>
             </QueryResult>
-
             <Outlet />
-
         </Container>
-
     );
 }
 
